@@ -1,0 +1,137 @@
+html{
+	scroll-behavior: smooth;
+}
+#navbarNav{
+	font-size: 19px;
+	padding-bottom: 10px;
+	transition: 0.2s;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
+}
+.profile
+{
+	padding-top: 110px;
+	padding-bottom: 110px;
+	background-image: url('../img/background2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: white;
+	background-position: relative;
+}
+.isi{
+	box-shadow: 3px -3px 3px 4px rgba(255,255,255,0.5);
+	background-color: white;
+	color: black;
+	padding-top:30px;
+	padding-bottom:30px ;
+	margin-left:  25% ;
+	margin-right: 25% ;
+}
+.github{
+	padding: 5px 10px;
+	border: 2px solid blue;
+	background-image: url('../img/abstrak1.jpg');
+	border-radius: 10%;
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	background-size: 100%; 
+}
+.github:hover{
+	text-decoration: none;
+	transition: 0.2s;
+	background-image: none;
+	background-color: rgb(226,246,253);
+}	
+.project{
+	padding-top: 50px;
+	background-color: white;
+	padding-bottom: 40px;
+}
+.card-deck{
+	margin-left: 15%;
+	margin-top: 30px;
+}
+.card {
+	width: 18rem;
+	margin-top: 20px;
+}
+.judul{
+	padding: 5px 10px;
+	color: black;
+}
+.judul:hover{
+	text-decoration: none;
+	color: black;
+	background-color: rgb(253,253,253);
+}
+.sub{
+	width: 50px;
+	background-color: black;
+	border: 2px solid rgb(0,0,0);
+	
+}
+.card-img-top{
+	height: 200px;
+}
+.gt{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.gt img{
+	width: 20%;
+	height: 20%;
+	border-radius: 100%;
+}
+.medsos{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.medsos img{
+	width: 200px;
+	height: 200px;
+	box-shadow: -3px -3px 3px 4px rgba(0,0,0,0.5); 
+}
+.card-deck .card {
+	opacity: 0;
+	transform: translate(0, -50px);
+}
+
+.card-deck .card.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+	transition: 0.5s;
+}
+.medsos .row {
+	opacity: 0;
+	transform: translate(-50px, 0px);
+}
+
+.medsos .row.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+	transition: 0.5s;
+}
+
+.detail{
+	margin-top: 50px;
+}
+.logo{
+	opacity: 0;
+	transform: translate(0px, 50px);
+}
+.logo.muncul{
+	opacity: 1;
+	transition: 0.5s;
+	transform: translate(0,0);
+}
+.footer{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-image: url('../img/abstrak.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.footer img{
+	height: 100px;
+	width: 100px;
+}
